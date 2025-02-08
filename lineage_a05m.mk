@@ -26,6 +26,7 @@ PRODUCT_MODEL := Galaxy A05
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
+WITH_GMS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="a05mxx-user 14 UP1A.231005.007 A055FXXS7CXJ1 release-keys" \
