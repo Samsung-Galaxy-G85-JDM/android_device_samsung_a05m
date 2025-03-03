@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Inherit from a05m device
 $(call inherit-product, device/samsung/a05m/device.mk)
@@ -20,7 +20,7 @@ $(call inherit-product, vendor/samsung/wing-camera/wingcamera-samsung.mk)
 TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_DEVICE := a05m
-PRODUCT_NAME := lineage_a05m
+PRODUCT_NAME := superior_a05m
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := Galaxy A05
 PRODUCT_MANUFACTURER := samsung
