@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/orion_a05m.mk
+    $(LOCAL_DIR)/superior_a05m.mk
 
 COMMON_LUNCH_CHOICES := \
-    orion_a05m-user \
-    orion_a05m-userdebug \
-    orion_a05m-eng
+    superior_a05m-user \
+    superior_a05m-userdebug \
+    superior_a05m-eng
