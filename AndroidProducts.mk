@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_a05m.mk
+    $(LOCAL_DIR)/aosp_a05m.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_a05m-user \
-    superior_a05m-userdebug \
-    superior_a05m-eng
+    aosp_a05m-user \
+    aosp_a05m-userdebug \
+    aosp_a05m-eng
