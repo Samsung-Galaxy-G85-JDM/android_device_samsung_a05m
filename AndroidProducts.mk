@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/alpha_a05m.mk
+    $(LOCAL_DIR)/derp_a05m.mk
 
 COMMON_LUNCH_CHOICES := \
-    alpha_a05m-user \
-    alpha_a05m-userdebug \
-    alpha_a05m-eng
+    derp_a05m-user \
+    derp_a05m-userdebug \
+    derp_a05m-eng
